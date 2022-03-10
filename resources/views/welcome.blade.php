@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>HeroBiz Bootstrap Template - Home 1</title>
+    <title>Fikret Cüre Resmi Web Sitesi</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
