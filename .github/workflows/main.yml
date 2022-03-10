@@ -1,0 +1,18 @@
+name: CI -> Deploy to My website
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # Here is the deployment action
+      - name: Upload from public_html via FTP
+        uses: airvzxf/ftp-deployment-action@latest
+        with:
+          server: ${{ secrets.ftp.fikretcure.dev }}
+          user: ${{ secrets.public@fikretcure.dev }}
+          password: ${{ secrets.selanik1453 }}
+          local_dir: "./public_html"
+          delete: "false"
