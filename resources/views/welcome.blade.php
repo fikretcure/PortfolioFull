@@ -54,7 +54,7 @@
     }
 
     .content .title {
-        font-size: 150px;
+        font-size: 160px;
         font-weight: 300;
         margin-left: 10px;
         margin-right: 10px;
@@ -68,7 +68,7 @@
             yakında
         </span>
         <span class="title">
-            &#8750;i&#409;re&#2547;<span class="turkuaz">&#x212D;ure</span>
+            &#8750;i&#409;r&#233;&#2547;<span class="turkuaz">&#x212D;&#651;r&#233;</span>
         </span>
         <span>
             sizlerle
