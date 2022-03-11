@@ -25,10 +25,7 @@ Route::middleware([\App\Http\Middleware\GateWay::class])->group(function () {
     Route::get('/test', function (Request $request) {
 
 
-        return response()->json([
-            "server_info" => $request->server(),
-            "local_info" => Location::get($request->ip())
-        ]);
+        return response()->json(\App\Models\userRecords::all());
     })->name("test");
 });
 
