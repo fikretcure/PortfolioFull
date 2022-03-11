@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>HeroBiz Bootstrap Template - Home 3</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <title>{{env("description")}}</title>
+    <meta content="{{env("description")}}" name="description">
+    <meta content="{{env("keywords")}}" name="keywords">
 
     <!-- Favicons -->
     <link href="{{asset("template/assets")}}/img/favicon.png" rel="icon">
