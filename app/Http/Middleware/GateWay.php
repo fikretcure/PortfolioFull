@@ -18,11 +18,8 @@ class GateWay
      */
     public function handle(Request $request, Closure $next)
     {
-
-
         if (Location::get($request->ip())) {
             $client = Location::get($request->ip());
-
             userRecords::create([
                 "country_name" => $client->countryName,
                 "city_name" => $client->cityName,
@@ -32,14 +29,11 @@ class GateWay
                 "route_name" => $request->route()->getName(),
                 "route_url" => $request->url(),
             ]);
-
             return $next($request);
-
-
+        } else if (env("IP") == "dev") {
+            return $next($request);
         } else {
             return response()->json("404");
         }
-
-
     }
 }
