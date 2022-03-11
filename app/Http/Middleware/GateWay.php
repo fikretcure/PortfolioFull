@@ -23,7 +23,6 @@ class GateWay
             userRecords::create([
                 "country_name" => $client->countryName,
                 "city_name" => $client->cityName,
-                "ip" => $request->ip(),
                 "server_addr" => $request->server("SERVER_ADDR"),
                 "remote_addr" => $request->server("REMOTE_ADDR"),
                 "route_name" => $request->route()->getName(),
