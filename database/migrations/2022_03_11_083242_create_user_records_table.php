@@ -15,7 +15,9 @@ return new class extends Migration
     {
         Schema::create('user_records', function (Blueprint $table) {
             $table->id();
-
+            $table->string("country_name");
+            $table->string("city_name");
+            $table->string("ip");
             $table->timestamps();
         });
     }

@@ -20,5 +20,8 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function (Request $request) {
-    return response()->json(Location::get($request->ip()));
+    return response()->json([
+        "server_info" => $request->server(),
+        "local_info" => Location::get($request->ip())
+    ]);
 });
