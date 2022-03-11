@@ -15,10 +15,12 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+})->name("home");
+
 Route::middleware([\App\Http\Middleware\GateWay::class])->group(function () {
-    Route::get('/', function () {
-        return view('welcome');
-    })->name("home");
+
 
     Route::get('/test', function (Request $request) {
         return response()->json([
