@@ -16,11 +16,9 @@ use Illuminate\Http\Request;
 
 
 Route::middleware([\App\Http\Middleware\GateWay::class])->group(function () {
-
 //    Route::get('/', function () {
 //        return view('welcome');
 //    })->name("home");
-
     Route::get('/', [\App\Http\Controllers\HomeController::class, "index"])->name("home");
 });
 

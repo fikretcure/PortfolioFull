@@ -101,7 +101,8 @@
                             <p>Eğitim kurumlarına hizmet verme adına,katmanlı mimarı kullanarak laravel ile
                                 okul/öğrenci/veli bilgi yönetim sistemi
                                 geliştiren ekibin parçasıyım.
-                                Agile Metodoloji kullanıyoruz.<br>
+                                Agile Metodoloji kullanıyoruz.
+                                <br><br>
                                 #POSTRESQL #DOCKER #LARAVEL 9 #JIRA #RESTAPI</p>
                             <div class="d-flex align-items-center mt-4">
                                 <i class="bi bi-check2"></i>
@@ -111,7 +112,7 @@
                             <p>Şirketimiz bünyesinde bulunan üretim birimi için Laravel ile Erp sistemi geliştirdim.
                                 Üretim ,Stok , Modül , Kullanıcı Yönetimleri gibi ana modüller ve bunlara ait alt
                                 modülleri geliştirdim.
-                                <br>#MYSQL #XAMPP #LARAVEL 7.6 #TRELLO #RESTAPI</p>
+                                <br><br>#MYSQL #XAMPP #LARAVEL 7.6 #TRELLO #RESTAPI</p>
 
                         </div><!-- End Tab 1 Content -->
                         <div class="tab-pane fade show" id="tab2">
@@ -145,11 +146,7 @@
         <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
             <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
                  data-portfolio-sort="original-order">
-
                 <div class="row g-0 portfolio-container">
-
-
-
                     @foreach ($repo as $item)
                         <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
                             <img src="{{ asset('template/assets') }}/img/portfolio/{{ $item["name"] }}.jpg" class="img-fluid"
@@ -164,7 +161,6 @@
                             </div>
                         </div><!-- End Portfolio Item -->
                     @endforeach
-
                 </div><!-- End Portfolio Container -->
             </div>
         </div>
