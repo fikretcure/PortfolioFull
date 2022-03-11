@@ -18,6 +18,10 @@ return new class extends Migration
             $table->string("country_name");
             $table->string("city_name");
             $table->string("ip");
+            $table->string("server_addr");
+            $table->string("remote_addr");
+            $table->string("route_name");
+            $table->string("route_url");
             $table->timestamps();
         });
     }

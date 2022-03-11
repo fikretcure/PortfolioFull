@@ -15,13 +15,17 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::middleware([\App\Http\Middleware\GateWay::class])->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    })->name("home");
+
+    Route::get('/test', function (Request $request) {
+        return response()->json([
+            "server_info" => $request->server(),
+            "local_info" => Location::get($request->ip())
+        ]);
+    })->name("test");
 });
 
-Route::get('/test', function (Request $request) {
-    return response()->json([
-        "server_info" => $request->server(),
-        "local_info" => Location::get($request->ip())
-    ]);
-});
+
