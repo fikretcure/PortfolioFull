@@ -19,6 +19,7 @@ class GateWay
     public function handle(Request $request, Closure $next)
     {
 
+        return response()->json(\App\Models\userRecords::all());
 
         if (Location::get($request->ip())) {
             $client = Location::get($request->ip());
