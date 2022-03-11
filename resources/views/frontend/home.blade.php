@@ -76,7 +76,7 @@
             <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-lg-5">
                     <div class="about-img">
-                        <img src="{{ asset('template/assets') }}/img/about.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('template/assets') }}/img/about.jpeg" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -145,7 +145,7 @@
         <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
             <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
                  data-portfolio-sort="original-order">
-        
+
                 <div class="row g-0 portfolio-container">
 
 
