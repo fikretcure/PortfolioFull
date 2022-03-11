@@ -1,0 +1,3 @@
+<div>
+    Mailiniz değerlendirmeye alınmıştır teşekkürler ...
+</div>

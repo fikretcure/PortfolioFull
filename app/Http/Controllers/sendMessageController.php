@@ -22,6 +22,12 @@ class sendMessageController extends Controller
             $message->subject($request->subject);
             $message->to("info@fikretcure.dev");
         });
+        mail::send("clientsendmail", $data, function ($message) use ($request) {
+            $message->subject($request->subject);
+            $message->to($request->email);
+        });
+
+
         return response(    "OK", 200);
 
     }
