@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Stevebauman\Location\Facades\Location;
 use Illuminate\Http\Request;
 
 /*
@@ -16,16 +15,13 @@ use Illuminate\Http\Request;
 */
 
 
-
 Route::middleware([\App\Http\Middleware\GateWay::class])->group(function () {
 
     Route::get('/', function () {
         return view('welcome');
     })->name("home");
 
-    Route::get('/test', function (Request $request) {
-        return response()->json(\App\Models\userRecords::all());
-    })->name("test");
+    Route::get('/test', [\App\Http\Controllers\HomeController::class, "index"])->name("test");
 });
 
 
