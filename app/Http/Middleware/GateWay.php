@@ -21,7 +21,7 @@ class GateWay
 
 
         if (Location::get($request->ip())) {
-            $client = Location::get("85.96.179.192");
+            $client = Location::get($request->ip());
 
             userRecords::create([
                 "country_name" => $client->countryName,
