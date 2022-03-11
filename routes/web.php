@@ -21,7 +21,7 @@ Route::middleware([\App\Http\Middleware\GateWay::class])->group(function () {
 //        return view('welcome');
 //    })->name("home");
 
-    Route::get('/home', [\App\Http\Controllers\HomeController::class, "index"])->name("home");
+    Route::get('/', [\App\Http\Controllers\HomeController::class, "index"])->name("home");
 });
 
 
