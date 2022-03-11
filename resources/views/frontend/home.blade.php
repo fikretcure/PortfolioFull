@@ -61,14 +61,8 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-
-
-
-
                     <li><a class="nav-link scrollto" href="index-3.html#hero-fullscreen">Home</a></li>
-
                     <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i
@@ -107,8 +101,7 @@
 
     <section id="hero-fullscreen" class="hero-fullscreen d-flex align-items-center">
         <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
-            <h2>Welcome to <span>HeroBiz</span></h2>
-            <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
+            <h2>Welcome to <span>my dreams</span></h2>
             <div class="d-flex">
                 <a href="#about" class="btn-get-started scrollto">Get Started</a>
                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
@@ -119,14 +112,9 @@
     </section>
 
     <main id="main">
-
-
-
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
-
-
                 <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
 
                     <div class="col-lg-5">
@@ -250,122 +238,6 @@
 
             </div>
         </section><!-- End About Section -->
-
-
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h2>Our Services</h2>
-                    <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad
-                        dolores adipisci aliquam.</p>
-                </div>
-
-                <div class="row gy-5">
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="{{asset("template/assets")}}/img/services-1.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-activity"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Nesciunt Mete</h3>
-                                </a>
-                                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
-                                    dolores iure perferendis.</p>
-                            </div>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="{{asset("template/assets")}}/img/services-2.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-broadcast"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Eosle Commodi</h3>
-                                </a>
-                                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque
-                                    eum hic non ut nesciunt dolorem.</p>
-                            </div>
-                        </div>
-                    </div><!-- End Service Item -->
-
-
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="{{asset("template/assets")}}/img/services-4.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-bounding-box-circles"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Asperiores Commodit</h3>
-                                </a>
-                                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea
-                                    fuga sit provident adipisci neque.</p>
-                                <a href="#" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="{{asset("template/assets")}}/img/services-5.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-calendar4-week"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Velit Doloremque</h3>
-                                </a>
-                                <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut.
-                                    Sed animi at autem alias eius labore.</p>
-                                <a href="#" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
-                        <div class="service-item">
-                            <div class="img">
-                                <img src="{{asset("template/assets")}}/img/services-6.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="details position-relative">
-                                <div class="icon">
-                                    <i class="bi bi-chat-square-text"></i>
-                                </div>
-                                <a href="#" class="stretched-link">
-                                    <h3>Dolori Architecto</h3>
-                                </a>
-                                <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure.
-                                    Corrupti recusandae ducimus enim.</p>
-                                <a href="#" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                </div>
-
-            </div>
-        </section><!-- End Services Section -->
-
-
-
 
 
         <!-- ======= Portfolio Section ======= -->
@@ -544,8 +416,6 @@
 
             </div>
         </section><!-- End Portfolio Section -->
-
-
 
         <!-- ======= Recent Blog Posts Section ======= -->
         <section id="recent-blog-posts" class="recent-blog-posts">
