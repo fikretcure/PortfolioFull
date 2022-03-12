@@ -295,6 +295,7 @@
             </div>
             <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
                 <a href="https://github.com/fikretcure" class="github"><i class="bi bi-github"></i></a>
+                <a href="https://www.youtube.com/channel/UC_Cqwomu8Pfgzb7qjBE0leQ" class="youtube"><i class="bi bi-youtube"></i></a>
                 <a href="https://www.linkedin.com/in/fikretcure/" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
         </div>
