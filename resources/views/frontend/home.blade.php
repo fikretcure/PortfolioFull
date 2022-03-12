@@ -149,14 +149,13 @@
                 <div class="row g-0 portfolio-container">
                     @foreach ($repo as $item)
                         <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-                            <img src="{{ asset('template/assets') }}/img/portfolio/{{ $item["name"] }}.jpg?{{now()}}" class="img-fluid"
+                            <img src="{{ asset('template/assets') }}/img/portfolio/{{ $item["name"] }}.jpg?{{now()}}"
+                                 class="img-fluid"
                                  alt="">
                             <div class="portfolio-info">
                                 <h4>{{ $item["name"] }}</h4>
-                                <a href="{{ asset('template/assets') }}/img/portfolio/{{ $item["name"] }}.jpg?{{now()}}" title="{{ $item["name"] }}"
-                                   data-gallery="portfolio-gallery" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="https://github.com/fikretcure/{{ $item["name"] }}" title="More Details" class="details-link"><i
+                                <a href="https://github.com/fikretcure/{{ $item["name"] }}" title="More Github Repo"
+                                   class="details-link"><i
                                         class="bi bi-github"></i></a>
                             </div>
                         </div><!-- End Portfolio Item -->
