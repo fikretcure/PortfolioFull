@@ -271,7 +271,7 @@
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Our Newsletter</h4>
                     <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="#" method="post">
+                    <form action="api/subscribers" method="post">
                         <input type="email" name="email"><input type="submit" value="Subscribe">
                     </form>
                 </div>
@@ -316,29 +316,37 @@
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
-    const request = async (method, v, url, data) => {
-        let resp = null;
-        resp = await axios({
-            method: method,
-            url: "{{ route('home') }}" + '/api/' + v + '/' + url,
-            data: data,
-            headers: {
-                'x-refresh-token': localStorage.getItem("x-refresh-token"),
-                'x-access-token': localStorage.getItem("x-access-token"),
-            }
-        });
-        return new Promise(function(resolve, reject) {
-            localStorage.setItem('x-access-token', resp.headers["x-access-token"]);
-            switch (resp.status) {
-                case 200:
-                    resolve(resp);
-                    break;
-                default:
-                    reject(reject);
-                    break;
-            }
-        });
-    };
+    {{--const request = async (method, v, url, data) => {--}}
+    {{--    let resp = null;--}}
+    {{--    resp = await axios({--}}
+    {{--        method: method,--}}
+    {{--        url: "{{ route('home') }}" + '/api/' + v + '/' + url,--}}
+    {{--        data: data,--}}
+    {{--        headers: {--}}
+    {{--            'x-refresh-token': localStorage.getItem("x-refresh-token"),--}}
+    {{--            'x-access-token': localStorage.getItem("x-access-token"),--}}
+    {{--        }--}}
+    {{--    });--}}
+    {{--    return new Promise(function(resolve, reject) {--}}
+    {{--        localStorage.setItem('x-access-token', resp.headers["x-access-token"]);--}}
+    {{--        switch (resp.status) {--}}
+    {{--            case 200:--}}
+    {{--                resolve(resp);--}}
+    {{--                break;--}}
+    {{--            default:--}}
+    {{--                reject(reject);--}}
+    {{--                break;--}}
+    {{--        }--}}
+    {{--    });--}}
+    {{--};--}}
+
+    // const form  = document.getElementById('signup');
+    //
+    // form.addEventListener('click', (event) => {
+    //    event.preventDefault();
+    //
+    //     alert("lale);
+    // });
 
 </script>
 </body>

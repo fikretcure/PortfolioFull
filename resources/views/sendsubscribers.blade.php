@@ -1,0 +1,3 @@
+<div>
+     {{$email}} adlı mailiniz sistemimize kayıt olmuştur.İyi çalışmalar ...
+</div>
