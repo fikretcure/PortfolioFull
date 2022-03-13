@@ -41,11 +41,11 @@ class SubscribersController extends Controller
                 "email" => $request->email,
             ];
             mail::send("sendsubscribers", $data, function ($message) use ($request) {
-                $message->subject("Abone Ekleme");
+                $message->subject("Şef yeni abonen var !");
                 $message->to("info@fikretcure.dev");
             });
             mail::send("sendsubscribers", $data, function ($message) use ($request) {
-                $message->subject("Abone Ekleme");
+                $message->subject("Yeni abonemiz olarak aramıza hoşgeldiniz !");
                 $message->to($request->email);
             });
             return redirect("/");
