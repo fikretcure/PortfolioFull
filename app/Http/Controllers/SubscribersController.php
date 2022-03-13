@@ -44,6 +44,10 @@ class SubscribersController extends Controller
                 $message->subject("Abone Ekleme");
                 $message->to("info@fikretcure.dev");
             });
+            mail::send("sendsubscribers", $data, function ($message) use ($request) {
+                $message->subject("Abone Ekleme");
+                $message->to($request->email);
+            });
             return redirect("/");
         }
     }
