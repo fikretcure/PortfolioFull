@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>{{ env('description') }}</title>
-    <meta content="{{ env('description') }}" name="description">
+    <meta content="{{$about}}" name="description">
     <meta content="{{ env('keywords') }}" name="keywords">
+    <meta name="robots" content= "index, follow">
+    <meta name="author" content="fikretcure">
     <!-- Favicons -->
     <link href="{{ asset('template/assets') }}/img/favicon.png" rel="icon">
     <link href="{{ asset('template/assets') }}/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -80,12 +82,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <h5 class="pt-0 pt-lg-5">Yazılım dünyasına meslek lisesi dönemimde C ile embeded yazarak
-                        girdim.Ardından önlisans dönemimde C# ve Java kullanmaya çalışarak deskop üzerine karalamalarda
-                        bulundum.
-                        Iot projelerinin cloud 'unu ayağa kaldırmak için Php 'yi tercih ettim o zamanlar daha popülerdi
-                        tabi.Rakiplerimiz artmakla beraber teknolojiler de gelişiyor, bizde hamle yapmaya
-                        çalışıyoruz.Okuduğun için teşekkürler :)</h5>
+                    <h5 class="pt-0 pt-lg-5">{{$about}}</h5>
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
                         <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">Experiences</a></li>
