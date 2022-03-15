@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>{{ env('description') }}</title>
+    <title>{{ env('title') }}</title>
     <meta content="{{$about}}" name="description">
     <meta content="{{ env('keywords') }}" name="keywords">
     <meta name="robots" content= "index, follow">
@@ -187,7 +187,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h4>Email:</h4>
-                                <p>fikretcure@gmail.com</p>
+                                <p>info@fikretcure.dev</p>
                             </div>
                         </div><!-- End Info Item -->
                         <div class="info-item d-flex">
@@ -245,7 +245,7 @@
                             Istanbul<br>
                             TURKEY<br><br>
                             <strong>Phone:</strong> +90 505 068 7161<br>
-                            <strong>Email:</strong> fikretcure@gmail.com<br>
+                            <strong>Email:</strong> info@fikretcure.dev<br>
                         </p>
                     </div>
                 </div>
