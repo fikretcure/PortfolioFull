@@ -18,14 +18,13 @@ class GateWay
      */
     public function handle(Request $request, Closure $next)
     {
-        if (Location::get($request->ip()) &&  $request->ip() != "159.146.13.247" &&  $request->ip() != "77.245.159.2") {
+        if (Location::get($request->ip())) {
             $client = Location::get($request->ip());
 
             switch ($request->server("REMOTE_ADDR")) {
                 case '159.146.13.247':
                 case '77.245.159.2':
                     break;
-
                 default:
                     userRecords::create([
                         "country_name" => $client->countryName,
@@ -37,11 +36,6 @@ class GateWay
                     ]);
                     break;
             }
-
-
-
-
-
             return $next($request);
         } else if (env("IP") == "dev") {
             return $next($request);
