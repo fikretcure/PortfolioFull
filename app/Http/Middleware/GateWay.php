@@ -24,6 +24,7 @@ class GateWay
             switch ($request->server("REMOTE_ADDR")) {
                 case '159.146.13.247':
                 case '77.245.159.2':
+                case '151.135.107.223':
                     break;
                 default:
                     userRecords::create([
