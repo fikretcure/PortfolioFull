@@ -40,6 +40,16 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+    <style>
+        .hero-fullscreen {
+            width: 100%;
+            min-height: 100vh;
+            background: url("{{ asset('template/assets') }}/img/hero-fullscreen-bg-{{random_int(1,6)}}.jpg") center center;
+            background-size: cover;
+            position: relative;
+            padding: 120px 0 60px;
+        }
+    </style>
 </head>
 
 <body>
