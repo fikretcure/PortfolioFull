@@ -49,6 +49,12 @@
             position: relative;
             padding: 120px 0 60px;
         }
+        .hero-fullscreen:before {
+            content: "";
+            background: rgba(var(--color-white-rgb), 0.65);
+            position: absolute;
+            inset: 0;
+        }
     </style>
 </head>
 

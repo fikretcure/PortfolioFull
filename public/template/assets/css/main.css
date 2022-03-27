@@ -792,12 +792,7 @@ section {
 # Fullscreen Hero Section
 --------------------------------------------------------------*/
 
-.hero-fullscreen:before {
-  content: "";
-  background: rgba(var(--color-white-rgb), 0.7);
-  position: absolute;
-  inset: 0;
-}
+
 @media (min-width: 1365px) {
   .hero-fullscreen {
     background-attachment: fixed;
