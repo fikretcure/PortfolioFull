@@ -25,6 +25,7 @@ class GateWay
                 case '159.146.13.247':
                 case '77.245.159.2':
                 case '151.135.107.223':
+                case '176.236.75.2':
                     break;
                 default:
                     userRecords::create([
