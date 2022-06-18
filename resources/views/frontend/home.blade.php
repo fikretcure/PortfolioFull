@@ -109,7 +109,7 @@
                         <div class="tab-pane fade show active" id="tab1">
                             <div class="d-flex align-items-center mt-4">
                                 <i class="bi bi-check2"></i>
-                                <h4><a href="https://www.ubit.com.tr/">Uğur Bilgi Teknolojileri</a> 02/2022 - ~</h4>
+                                <h4><a href="https://www.ubit.com.tr/">UĞUR BİLGİ TEKNOLOJİLERİ</a> 02/2022 - ~</h4>
                             </div>
                             <p><br>#POSTRESQL #DOCKER #LARAVEL 9 #JIRA #RESTAPI #POSTMAN</p>
                             <div class="d-flex align-items-center mt-4">
