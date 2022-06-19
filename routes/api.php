@@ -20,6 +20,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/sendmessage', [\App\Http\Controllers\sendMessageController::class, "send"])->name("send");
 
+
+Route::get("abdullah",function (){
+    return "abdullah merhaba";
+});
+
+
 Route::apiResources([
     'subscribers' => \App\Http\Controllers\SubscribersController::class,
 ]);
