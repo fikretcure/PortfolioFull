@@ -109,23 +109,15 @@
                         <div class="tab-pane fade show active" id="tab1">
                             <div class="d-flex align-items-center mt-4">
                                 <i class="bi bi-check2"></i>
-                                <h4><a href="https://www.ubit.com.tr/">Uğur Bilgi Teknolojileri</a> 02/2022 - ~</h4>
+                                <h4><a href="https://www.ubit.com.tr/">UĞUR BİLGİ TEKNOLOJİLERİ</a> 02/2022 - ~</h4>
                             </div>
-                            <p>Eğitim kurumlarına hizmet verme adına,katmanlı mimarı kullanarak laravel ile
-                                okul/öğrenci/veli bilgi yönetim sistemi
-                                geliştiren ekibin parçasıyım.
-                                Agile Metodoloji kullanıyoruz.
-                                <br><br>
-                                #POSTRESQL #DOCKER #LARAVEL 9 #JIRA #RESTAPI</p>
+                            <p><br>#POSTRESQL #DOCKER #LARAVEL 9 #JIRA #RESTAPI #POSTMAN</p>
                             <div class="d-flex align-items-center mt-4">
                                 <i class="bi bi-check2"></i>
                                 <h4><a href="https://www.gruparge.com/">GRUP ARGE ENERJİ VE KONTROL SİSTEMLERİ </a>
                                     09/2020 - 02/2022</h4>
                             </div>
-                            <p>Şirketimiz bünyesinde bulunan üretim birimi için Laravel ile Erp sistemi geliştirdim.
-                                Üretim ,Stok , Modül , Kullanıcı Yönetimleri gibi ana modüller ve bunlara ait alt
-                                modülleri geliştirdim.
-                                <br><br>#MYSQL #XAMPP #LARAVEL 7.6 #TRELLO #RESTAPI</p>
+                            <p><br>#MYSQL #XAMPP #LARAVEL 7.6 #TRELLO #RESTAPI #POSTMAN</p>
 
                         </div><!-- End Tab 1 Content -->
                         <div class="tab-pane fade show" id="tab2">
